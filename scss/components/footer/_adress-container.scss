@@ -1,0 +1,36 @@
+.logo__footer-span {
+  color: white;
+  text-align: center;
+}
+.logo {
+  @media screen and(max-width: 1199px) {
+    text-align: center;
+    display: block;
+  }
+}
+.address {
+  margin-top: 20px;
+  font-style: normal;
+  @media screen and(max-width:1199px) {
+    display: block;
+   
+    text-align: center;
+  }
+}
+.address__paragraph {
+  margin-top: 9px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: white;
+}
+.address__link {
+  margin-top: 9px;
+  display: block;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}

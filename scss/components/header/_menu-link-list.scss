@@ -1,0 +1,31 @@
+.link-list {
+  display: flex;
+  @media screen and(max-width: 480px) {
+    flex-wrap: wrap;
+    
+  }
+  gap: 20px;
+  
+  margin-top: 64px;
+  padding-bottom: 48px;
+  
+ 
+}
+.link-list__item {
+  
+  height: 22px;
+  padding-right: 10px;
+  border-right: 1px solid rgba(33, 33, 33, 0.2);
+}
+.link-list__paragraph {
+  font-weight: 500;
+  font-size: 18px;
+ 
+  line-height: 22px;
+  
+  /* identical to box height, or 122% */
+
+  letter-spacing: 0.02em;
+
+  color: #2196f3;
+}

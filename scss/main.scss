@@ -1,0 +1,20 @@
+ @import "./base/normalize";
+ @import "./base/reset-styles";
+ @import "./utils/container";
+ @import "./utils/visually-hidden";
+ @import "./utils/is-hidden";
+ @import "./utils/mixin";
+ @import "./utils/variables";
+ @import "./utils/h2-title";
+ @import "./base/body";
+ @import "./components/header/header-import";
+ @import "./components/hero/hero-import";
+ @import "./components/modal/modal-import";
+ @import "./components/advantages/advantages-import";
+ @import "./components/work-examples/examples-import";
+ @import "./components/employers/employers-import";
+ @import "./components/companies/companies-import";
+ @import "./components/footer/footer-import";
+ @import "./components/portfolio/portfolio-import";
+
+

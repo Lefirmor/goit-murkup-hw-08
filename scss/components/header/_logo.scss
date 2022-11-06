@@ -1,0 +1,31 @@
+.logo {
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  .logo__span {
+    color: black;
+  }
+ 
+}
+.header-logo {
+  display: inline-block;
+  margin-right: 87px;
+  padding-top: 16px;
+  padding-bottom: 16px;
+  color: #2196f3;
+  font-family: Raleway, sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: calc(31 / 26);
+  letter-spacing: 0.03em;
+
+  .logo__span {
+    color: black;
+  }
+}

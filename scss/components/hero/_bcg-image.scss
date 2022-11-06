@@ -1,0 +1,27 @@
+.hero {
+  background-image: $bg-gradient, url("../images/hero/hero-bg-tel.png");
+  @include retina {
+    background-image: $bg-gradient, url("../images/hero/hero-bg-tel-x2.jpg");
+  }
+  @media screen and(min-width: 768px) {
+    background-image: $bg-gradient, url("../images/hero/hero-bg-tablet.png");
+    @include retina {
+      background-image: $bg-gradient,
+        url("../images/hero/hero-bg-tablet-x2.jpg");
+    }
+  }
+  @media screen and (min-width: 1200px) {
+    background-image: $bg-gradient, url("../images/hero/hero-bg-desktop.png");
+    height: 600px;
+    @include retina {
+      background-image: $bg-gradient,
+        url("../images/hero/hero-bg-desktop-x2.jpg");
+    }
+  }
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+}
