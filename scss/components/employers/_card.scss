@@ -1,21 +1,24 @@
-
-
 .employers-list__img {
   display: block;
 
   max-width: 100%;
   height: auto;
- 
 }
-.employers-title{
+.employers-title {
+  margin-bottom: 30px;
+  font-size: 28px;
+  line-height: calc(33 / 28);
+  @media screen and(min-width: 1200px) {
     margin-bottom: 50px;
+    font-size: 36px;
+    line-height: calc(46 / 32);
+  }
 }
 
 .employers-list__container {
   padding-top: 30px;
   padding-bottom: 30px;
   background-color: white;
-  
 }
 .employers-list__title {
   color: $header-color;
@@ -25,22 +28,20 @@
   text-align: center;
   letter-spacing: 0.03em;
   color: #212121;
-  
 }
 .employers-list__item {
   width: 100%;
-  @media screen and (max-width:767px){
-    &:not(:last-child){
+  @media screen and (max-width: 767px) {
+    &:not(:last-child) {
       margin-bottom: 30px;
     }
   }
-  @media screen and(min-width: 768px) and (max-width: 1200px){
+  @media screen and(min-width: 768px) and (max-width: 1200px) {
     width: calc((100% - 30px) / 2);
   }
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
   border-radius: 0px 0px 4px 4px;
-  
 }
 .employers-list__paragraph {
   margin-top: 10px;
@@ -54,7 +55,7 @@
 }
 .employers-list__wrapper {
   display: flex;
-  
+
   gap: 10px;
 
   justify-content: center;
